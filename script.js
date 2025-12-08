@@ -34,9 +34,6 @@ function fullscreen() {
 }
 
 document.addEventListener("keydown", function (event) {
-	console.log("Key pressed:", event.key);
-	// You can access other properties of the event object,
-	// such as event.keyCode, event.ctrlKey, event.shiftKey, etc.
 	if (event.key == "f" || event.ey == "F") {
 		fullscreen();
 	}
