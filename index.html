@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js" defer></script>
+		<title>two worlds apart</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="before-after" id="slider-container">
+				<video class="before-video" id="before-video" loop muted>
+					<source src="/redworld.mp4" type="video/mp4" />
+				</video>
+				<video class="after-video" id="after-video" loop muted>
+					<source src="/blueworld.mp4" type="video/mp4" />
+				</video>
+				<div class="slider" id="slider"></div>
+				<div class="controls" id="controls">
+					<button id="play-btn">Play</button>
+					<button id="pause-btn">Pause</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
